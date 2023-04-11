@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITOG PRACTICA", "ITOG PRACTICA.csproj", "{E5DD1035-5E69-450D-BB2B-044978C95773}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\Setup1\Setup1.vdproj", "{16411FE0-73EB-41A6-94FA-BB954343BD63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5DD1035-5E69-450D-BB2B-044978C95773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DD1035-5E69-450D-BB2B-044978C95773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DD1035-5E69-450D-BB2B-044978C95773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DD1035-5E69-450D-BB2B-044978C95773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16411FE0-73EB-41A6-94FA-BB954343BD63}.Debug|Any CPU.ActiveCfg = Debug
+		{16411FE0-73EB-41A6-94FA-BB954343BD63}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEC9E4E4-AA1A-4F83-AEC2-BADEB0422279}
+	EndGlobalSection
+EndGlobal

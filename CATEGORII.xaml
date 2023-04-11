@@ -1,0 +1,27 @@
+﻿<Window x:Class="ITOG_PRACTICA.CATEGORII"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITOG_PRACTICA"
+        mc:Ignorable="d"
+        Title="CATEGORII" Height="426" Width="791">
+    <Grid Margin="0,0,0,-6">
+        <DataGrid x:Name="CATEGOR" Margin="0,134,0,133" SelectionChanged="CATEGOR_SelectionChanged"/>
+        <Button Click="Button_Click" Content="Роли" HorizontalAlignment="Left" VerticalAlignment="Top" Width="181" Height="32"/>
+        <Button Click="Button_Click_2" Content="Сотрудники" HorizontalAlignment="Left" VerticalAlignment="Top" Width="201" Margin="590,0,0,0" Height="32"/>
+        <Button Click="Button_Click_DOBAV" Content="Добавить" HorizontalAlignment="Left" Margin="563,378,0,0" VerticalAlignment="Top" Height="32" Width="96"/>
+        <Button Click="Button_Click_DELIT" Content="Удалить" HorizontalAlignment="Left" Margin="453,378,0,0" VerticalAlignment="Top" Height="32" Width="84"/>
+        <Button Click="Button_Click_ADD" Content="Изменить" HorizontalAlignment="Left" Margin="676,378,0,0" VerticalAlignment="Top" Height="32" Width="97"/>
+        <TextBox Foreground="Black" x:Name="NameTbx" HorizontalAlignment="Left" Margin="10,330,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="226" Height="20" FontSize="12" Padding="0" materialDesign:HintAssist.Hint="Названия Категорию товара"/>
+        <TextBlock HorizontalAlignment="Left" Margin="375,91,0,0" TextWrapping="Wrap" Text="КАТЕГОРИИ" VerticalAlignment="Top" Width="105" Height="16"/>
+        <TextBox x:Name="DescriptTbx" HorizontalAlignment="Left" Margin="10,372,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="226" Height="26" materialDesign:HintAssist.Hint="Описания товара"/>
+        <ComboBox x:Name="ProductTbx" HorizontalAlignment="Left" Margin="276,360,0,0"  VerticalAlignment="Top" Width="120" materialDesign:HintAssist.Hint="Продукт" Height="25" />
+        <Button Click="Button_Click_1" Content="Адреса" HorizontalAlignment="Left" Margin="302,0,0,0" VerticalAlignment="Top" Width="216"/>
+        <Button Click="Button_Click_3" Content="Продукты" HorizontalAlignment="Left" Margin="0,50,0,0" VerticalAlignment="Top" Width="181"/>
+        <Button Click="Button_Click_5" Content="Элементы" HorizontalAlignment="Left" Margin="590,50,0,0" VerticalAlignment="Top" Width="201"/>
+        <Button x:Name="Import" Content="Импорт" HorizontalAlignment="Left" Margin="690,341,0,0" VerticalAlignment="Top" Click="Import_Click"/>
+
+    </Grid>
+</Window>
